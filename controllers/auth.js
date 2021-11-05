@@ -18,7 +18,7 @@ const googleAuth = async (req, res = response) => {
 
   res.json({
     ok: true,
-    token,
+    googleUser,
   });
 };
 
